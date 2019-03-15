@@ -22,3 +22,4 @@ $output =
 
 ##Output results to txt file
 $output | Out-File "NetTest_$DateFileName.txt"
+Invoke-Item "NetTest_$DateFileName.txt"
